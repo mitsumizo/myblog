@@ -1,0 +1,19 @@
+header
+{
+    background-color: gray;
+    color : white;
+    height: 100px;
+}
+header h1
+{
+    font-size: 50px;
+}
+
+.left
+{
+    float:left;
+}
+
+body {
+    font-size: 24px;
+}
