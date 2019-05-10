@@ -1,19 +1,101 @@
 header
 {
-    background-color: gray;
-    color : white;
+    background-color: lightgray;
+    color : black;
     height: 100px;
 }
 header h1
 {
     font-size: 50px;
-}
-
-.left
-{
-    float:left;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 10px solid black;
 }
 
 body {
+    margin-top: 0px;
     font-size: 24px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    background-color:lightyellow;
 }
+
+.main_left
+{
+    width: 60%;
+    float: left;
+    margin-left: 100px;
+}
+
+.list {
+    background-color:lightgray;
+}
+
+h2
+{
+    font-size : 160%;
+    background-color: gray;
+    color : white;
+    padding-left: 5px;
+    border-left: 15px solid orange;
+}
+
+.main_left li
+{
+    margin: 15px;
+}
+
+.category_list
+{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+a:hover
+{
+    color: red;
+}
+
+.main_right{
+    width: 20%;
+    float:left;
+}
+
+.about_myself
+{
+    background-color:lightgray;
+    margin-left: 10px;
+}
+
+.about_myself img
+{
+    height: 70%;
+    width: 70%;
+    border-radius: 250px;
+    margin: auto 0;
+    
+
+}
+.main_right
+{
+   text-align: center; 
+}
+.main_right p
+{
+    font-size: 15px;
+    margin: 10%;
+}
+
+.about_myself h2
+{
+    text-align: left;
+}
+
+hr
+{
+    border: 2px solid orange;
+    width : 60%;
+}
+
+
